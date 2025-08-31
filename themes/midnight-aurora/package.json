@@ -1,0 +1,35 @@
+{
+  "name": "midnight-aurora-theme",
+  "displayName": "Midnight Aurora",
+  "description": "A soothing dark theme with Tomorrow Blue inspiration, perfect for late-night coding sessions",
+  "version": "1.0.0",
+  "publisher": "your-publisher-name",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-aurora-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "blue",
+    "aurora",
+    "midnight",
+    "tomorrow",
+    "night coding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  }
+}
